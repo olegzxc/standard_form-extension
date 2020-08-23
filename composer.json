@@ -1,0 +1,37 @@
+{
+    "name": "anomaly/standard_form-extension",
+    "type": "streams-addon",
+    "description": "",
+    "keywords": [
+        "streams extension",
+        "streams addon",
+        "extension"
+    ],
+    "homepage": "http://anomaly.is/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AnomalyLabs, Inc.",
+            "email": "hello@anomaly.is",
+            "homepage": "http://anomaly.is/",
+            "role": "Owner"
+        }
+    ],
+    "support": {
+        "email": "support@anomaly.is"
+    },
+    "autoload": {
+        "psr-4": {
+            "Anomaly\\StandardFormExtension\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "require": {
+        "anomaly/streams-platform": "^1.2.0",
+        "anomaly/forms-module": "^1.2.0"
+    }
+}
